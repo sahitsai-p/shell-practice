@@ -28,4 +28,5 @@ do
         VALIDATE $? "$package installation"
     else
         echo "$package is already installed, skipping"
+    fi 
 done
